@@ -1,3 +1,9 @@
+# This is a short script that can be executed in Jupyter Notebooks 
+# on a server, or local machine to scrape contributors' emails from a list of GitHub projects.
+# Projects' URLs must be provided in a SOURCE file.
+# DISCLAIMER Please, use for educational/research purposes only. Don't send any emails you would not want to receive yourself.
+
+
 import json
 import pandas as pd
 from requests import get
